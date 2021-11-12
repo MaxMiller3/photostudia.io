@@ -1,0 +1,1978 @@
+.header1{
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.block1{
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    width: 650px;
+    height: 500px;
+    overflow: hidden;
+}
+.navigation2{
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    height: 8px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #ddd;
+    opacity: .7;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+.bar:hover{
+    opacity: .8;
+    transform: scale(1.1)
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width:25%;
+    transition: all .6s ease;
+}
+.slide img {
+    width: 100%;
+    height: 100%    
+}
+#r1:checked ~ .first{
+    margin-left: 0;
+}
+#r2:checked ~ .first{
+    margin-left: -25%;
+}
+#r3:checked ~ .first{
+    margin-left: -50%;
+}
+.name{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+.navigation1{
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+a{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.block2{
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    left: 850px;
+    width: 400px;
+    height: 240px;
+}
+.block3{
+    margin: 0;
+    position: absolute;
+    top: 390px;
+    left: 850px;
+    width: 400px;
+    height: 240px;
+}
+.text0{
+    position: absolute;
+    top: 5px;
+    left: 150px;
+    font-size: 40px;
+    font-family: arial;
+}
+.block4{
+    margin: 0;
+    position: absolute;
+    top: 680px;
+    left: 0px;
+    width: 100%;
+    height: 550px;
+    background-color: #e3e3e3;
+}
+.text1{
+    font-size: 23px;
+    font-family:colibr;
+}
+.podblock1{
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    width: 300px;
+    height: 250px;
+}
+.podblock2{
+    position: absolute;
+    margin: 0;
+    top: 120px;
+    left: 600px;
+    width: 300px;
+    height: 250px;
+}
+.podblock3{
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+    width: 300px;
+    height: 250px;
+}
+.knopka1{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    cursor:pointer;
+    width: 200px;
+    height: 50px;
+    background-color: #e6c466;
+    border: none;
+    border-radius: 2px;
+    transition: .3s;
+}
+.knopka1:hover{
+    position: absolute;
+    top: 390px;
+    left: 590px;
+    width: 220px;
+    height: 70px;
+}
+.stroke1{
+    margin: 0;
+    position: absolute;
+    top: 1250px;
+    left: 600px;
+    font-size: 40px;
+    font-family: arial;
+}
+.block5{
+    margin: 0;
+    position: absolute;
+    top: 1300px;
+    left: 0;
+    width: 100%;
+    height: 1200px;
+}
+.zal1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+}
+.zal1:hover{
+    text-decoration:underline;
+}
+.price{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    color: black;
+    font-size: 25px;
+}
+.podblock5{
+    margin: 0;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+}
+.img1{
+    height: 250px;
+}
+.hall1{
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    width: 300px;
+    height: 350px;
+}
+.hall2{
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    width: 300px;
+    height: 350px;
+}
+.hall3{
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 1050px;
+    width: 300px;
+    height: 350px;
+}
+.hall4{
+    margin: 0;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 300px;
+    height: 350px;
+}
+.hall5{
+    margin: 0;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    width: 300px;
+    height: 350px;
+}
+.hall6{
+    margin: 0;
+    position: absolute;
+    top: 400px;
+    left: 1050px;
+    width: 300px;
+    height: 350px;
+}
+.hall7{
+    margin: 0;
+    position: absolute;
+    top: 790px;
+    left: 150px;
+    width: 300px;
+    height: 350px;
+}
+.hall8{
+    margin: 0;
+    position: absolute;
+    top: 790px;
+    left: 600px;
+    width: 300px;
+    height: 350px;
+}
+.hall9{
+    margin: 0;
+    position: absolute;
+    top: 790px;
+    left: 1050px;
+    width: 300px;
+    height: 350px;
+}
+.block6{
+    margin: 0;
+    position: absolute;
+    top: 2550px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    background-color: #e3e3e3;
+}
+.podblock4{
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 600px;
+    height: 400px;
+}
+.text2{
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    font-family: arial;
+    font-size: 20px;
+}
+.text3{
+    position: absolute;
+    top: 330px;
+    left: 30px;
+    font-family: arial;
+    font-size: 20px;
+}
+.text4{
+    position: absolute;
+    top: 520px;
+    left: 30px;
+    font-family: arial;
+    font-size: 20px;
+}
+.stroke2{
+    margin: 0;
+    position: absolute;
+    top: 3300px;
+    left: 250px;
+    font-size: 40px;
+    font-family: arial;
+}
+.block7{
+    margin: 0;
+    position: absolute;
+    top: 3400px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+}
+.foto1{
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    width: 200px;
+    height: 220px;
+}
+.foto2{
+    position: absolute;
+    top: 5px;
+    left: 350px;
+    width: 200px;
+    height: 220px;
+}
+.foto3{
+    position: absolute;
+    top: 5px;
+    left: 630px;
+    width: 200px;
+    height: 220px;
+}
+.foto4{
+    position: absolute;
+    top: 5px;
+    left: 920px;
+    width: 200px;
+    height: 220px;
+}
+.foto5{
+    position: absolute;
+    top: 5px;
+    left: 1200px;
+    width: 200px;
+    height: 220px;
+}
+.foto6{
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    width: 200px;
+    height: 220px;
+}
+.foto7{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    width: 200px;
+    height: 220px;
+}
+.foto8{
+    position: absolute;
+    top: 250px;
+    left: 630px;
+    width: 200px;
+    height: 220px;
+}
+.foto9{
+    position: absolute;
+    top: 250px;
+    left: 920px;
+    width: 200px;
+    height: 220px;
+}
+.foto10{
+    position: absolute;
+    top: 250px;
+    left: 1200px;
+    width: 200px;
+    height: 220px;
+}
+.block8{
+    margin: 0;
+    position: absolute;
+    top: 4000px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+}
+.inf1{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+}
+.inf2{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+}
+.inf3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+}
+.podblock6{
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 350px;
+    height: 150px;
+}
+.podblock7{
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    width: 350px;
+    height: 150px;
+}
+@media screen and (max-width: 1030px){
+a{
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.block1{
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    width: 450px;
+    height: 350px;
+    overflow: hidden;
+}
+.block2{
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    width: 260px;
+    height: 170px;
+}
+.block3{
+    margin: 0;
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    width: 260px;
+    height: 170px;
+}
+.block4{
+    margin: 0;
+    position: absolute;
+    top: 470px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    background-color: #e3e3e3;
+}
+.text0{
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    font-size: 30px;
+    font-family: arial;
+}
+.text1{
+    font-size: 20px;
+    font-family:colibr;
+}
+.podblock1{
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 300px;
+    height: 250px;
+}
+.podblock2{
+    position: absolute;
+    margin: 0;
+    top: 120px;
+    left: 330px;
+    width: 300px;
+    height: 250px;
+}
+.podblock3{
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 620px;
+    width: 300px;
+    height: 250px;
+}
+.knopka1{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    cursor:pointer;
+    width: 220px;
+    height: 70px;
+    background-color: #e6c466;
+    border: none;
+    border-radius: 2px;
+    transition: .3s;
+}
+.knopka1:hover{
+    position: absolute;
+    top: 390px;
+    left: 340px;
+    width: 230px;
+    height: 80px;
+}
+.stroke1{
+    margin: 0;
+    position: absolute;
+    top: 1000px;
+    left: 240px;
+    font-size: 37px;
+    font-family: arial;
+}
+.block5{
+    margin: 0;
+    position: absolute;
+    top: 1100px;
+    left: 0;
+    width: 100%;
+    height: 900px;
+}
+.zal1{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 22px;
+}
+.zal1:hover{
+    text-decoration:underline;
+}
+.price{
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    color: black;
+    font-size: 20px;
+}
+.podblock5{
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #ccc;
+}
+.img1{
+    height: 200px;
+}
+.hall1{
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    width: 250px;
+    height: 200px;
+}
+.hall2{
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 350px;
+    width: 250px;
+    height: 200px;
+}
+.hall3{
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 660px;
+    width: 250px;
+    height: 200px;
+}
+.hall4{
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    width: 250px;
+    height: 200px;
+}
+.hall5{
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    width: 250px;
+    height: 200px;
+}
+.hall6{
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 660px;
+    width: 250px;
+    height: 200px;
+}
+.hall7{
+    margin: 0;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    width: 250px;
+    height: 200px;
+}
+.hall8{
+    margin: 0;
+    position: absolute;
+    top: 600px;
+    left: 350px;
+    width: 250px;
+    height: 200px;
+}
+.hall9{
+    margin: 0;
+    position: absolute;
+    top: 600px;
+    left: 660px;
+    width: 250px;
+    height: 200px;
+}
+.block6{
+    margin: 0;
+    position: absolute;
+    top: 2050px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    background-color: #e3e3e3;
+}
+.podblock4{
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    right: 25px;
+    width: 350px;
+    height: 250px;
+}
+.text2{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    font-family: arial;
+    font-size: 15px;
+}
+.text3{
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    font-family: arial;
+    font-size: 15px;
+}
+.text4{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    font-family: arial;
+    font-size: 15px;
+}
+.stroke2{
+    margin: 0;
+    position: absolute;
+    top: 2700px;
+    left: 50px;
+    font-size: 40px;
+    font-family: arial;
+}
+.block7{
+    margin: 0;
+    position: absolute;
+    top: 2800px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+}
+.foto1{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 200px;
+    height: 220px;
+}
+.foto2{
+    position: absolute;
+    top: 0px;
+    left: 380px;
+    width: 200px;
+    height: 220px;
+}
+.foto3{
+    position: absolute;
+    top: 0px;
+    left: 690px;
+    width: 200px;
+    height: 220px;
+}
+.foto4{
+    position: absolute;
+    top: 260px;
+    left: 230px;
+    width: 200px;
+    height: 220px;
+}
+.foto5{
+    position: absolute;
+    top: 260px;
+    left: 530px;
+    width: 200px;
+    height: 220px;
+}
+.foto6{
+    position: absolute;
+    top: 530px;
+    left: 70px;
+    width: 200px;
+    height: 220px;
+}
+.foto7{
+    position: absolute;
+    top: 530px;
+    left: 380px;
+    width: 200px;
+    height: 220px;
+}
+.foto8{
+    position: absolute;
+    top: 530px;
+    left: 690px;
+    width: 200px;
+    height: 220px;
+}
+.foto9{
+    position: absolute;
+    top: 800px;
+    left: 230px;
+    width: 200px;
+    height: 220px;
+}
+.foto10{
+    position: absolute;
+    top: 800px;
+    left: 530px;
+    width: 200px;
+    height: 220px;
+}
+.block8{
+    margin: 0;
+    position: absolute;
+    top: 3900px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+}
+.inf1{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.inf2{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.inf3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.podblock6{
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 350px;
+    height: 150px;
+}
+.podblock7{
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 350px;
+    height: 150px;
+}
+}
+@media screen and (max-width: 900px){
+a{
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.block1{
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+.block2{
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 460px;
+    width: 250px;
+    height: 145px;
+}
+.block3{
+    margin: 0;
+    position: absolute;
+    top: 275px;
+    left: 460px;
+    width: 250px;
+    height: 145px;
+}
+.block4{
+    margin: 0;
+    position: absolute;
+    top: 470px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    background-color: #e3e3e3;
+}
+.text0{
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    font-size: 30px;
+    font-family: arial;
+}
+.text1{
+    font-size: 20px;
+    font-family:colibr;
+}
+.podblock1{
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width: 300px;
+    height: 250px;
+}
+.podblock2{
+    position: absolute;
+    margin: 0;
+    top: 120px;
+    left: 400px;
+    width: 300px;
+    height: 250px;
+}
+.podblock3{
+    margin: 0;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    width: 300px;
+    height: 250px;
+}
+.knopka1{
+    position: absolute;
+    top: 400px;
+    left: 420px;
+    cursor:pointer;
+    width: 220px;
+    height: 70px;
+    background-color: #e6c466;
+    border: none;
+    border-radius: 2px;
+    transition: .3s;
+}
+.knopka1:hover{
+    position: absolute;
+    top: 390px;
+    left: 420px;
+    width: 230px;
+    height: 80px;
+}
+.stroke1{
+    margin: 0;
+    position: absolute;
+    top: 1100px;
+    left: 240px;
+    font-size: 37px;
+    font-family: arial;
+}
+.block5{
+    margin: 0;
+    position: absolute;
+    top: 1150px;
+    left: 0;
+    width: 100%;
+    height: 1600px;
+}
+.zal1{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 22px;
+}
+.zal1:hover{
+    text-decoration:underline;
+}
+.price{
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    color: black;
+    font-size: 20px;
+}
+.podblock5{
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #ccc;
+}
+.img1{
+    height: 200px;
+}
+.hall1{
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    width: 250px;
+    height: 200px;
+}
+.hall2{
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 430px;
+    width: 250px;
+    height: 200px;
+}
+.hall3{
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    width: 250px;
+    height: 200px;
+}
+.hall4{
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 430px;
+    width: 250px;
+    height: 200px;
+}
+.hall5{
+    margin: 0;
+    position: absolute;
+    top: 600px;
+    left: 80px;
+    width: 250px;
+    height: 200px;
+}
+.hall6{
+    margin: 0;
+    position: absolute;
+    top: 600px;
+    left: 430px;
+    width: 250px;
+    height: 200px;
+}
+.hall7{
+    margin: 0;
+    position: absolute;
+    top: 900px;
+    left: 80px;
+    width: 250px;
+    height: 200px;
+}
+.hall8{
+    margin: 0;
+    position: absolute;
+    top: 900px;
+    left: 430px;
+    width: 250px;
+    height: 200px;
+}
+.hall9{
+    margin: 0;
+    position: absolute;
+    top: 1200px;
+    left: 250px;
+    width: 250px;
+    height: 200px;
+}
+.block6{
+    margin: 0;
+    position: absolute;
+    top: 2750px;
+    left: 0px;
+    width: 100%;
+    height: 1400px;
+    background-color: #e3e3e3;
+}
+.podblock4{
+    margin: 0;
+    position: absolute;
+    top: 790px;
+    left: 60px;
+    width: 650px;
+    height: 550px;
+}
+.text2{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-family: arial;
+    font-size: 20px;
+}
+.text3{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    font-family: arial;
+    font-size: 20px;
+}
+.text4{
+    position: absolute;
+    top: 520px;
+    left: 30px;
+    font-family: arial;
+    font-size: 20px;
+}
+.stroke2{
+    margin: 0;
+    position: absolute;
+    top: 4200px;
+    left: 100px;
+    font-size: 40px;
+    font-family: arial;
+}
+.block7{
+    margin: 0;
+    position: absolute;
+    top: 4330px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+}
+.foto1{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 200px;
+    height: 220px;
+}
+.foto2{
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    width: 200px;
+    height: 220px;
+}
+.foto3{
+    position: absolute;
+    top: 0px;
+    left: 520px;
+    width: 200px;
+    height: 220px;
+}
+.foto4{
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    width: 200px;
+    height: 220px;
+}
+.foto5{
+    position: absolute;
+    top: 260px;
+    left: 400px;
+    width: 200px;
+    height: 220px;
+}
+.foto6{
+    position: absolute;
+    top: 530px;
+    left: 30px;
+    width: 200px;
+    height: 220px;
+}
+.foto7{
+    position: absolute;
+    top: 530px;
+    left: 280px;
+    width: 200px;
+    height: 220px;
+}
+.foto8{
+    position: absolute;
+    top: 530px;
+    left: 520px;
+    width: 200px;
+    height: 220px;
+}
+.foto9{
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    width: 200px;
+    height: 220px;
+}
+.foto10{
+    position: absolute;
+    top: 800px;
+    left: 400px;
+    width: 200px;
+    height: 220px;
+}
+.block8{
+    margin: 0;
+    position: absolute;
+    top: 5500px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+}
+.inf1{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.inf2{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.inf3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.podblock6{
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 350px;
+    height: 150px;
+}
+.podblock7{
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 350px;
+    height: 150px;
+}
+}
+@media screen and (max-width: 500px){
+.name{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+.navigation1{
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+a{
+    font-size: 13px;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+}
+.block1{
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    width: 300px;;
+    height: 200px;
+    overflow: hidden;
+}
+.block2{
+    margin: 0;
+    position: absolute;
+    top: 310px;
+    left: 60px;
+    width: 300px;
+    height: 200px;
+}
+.block3{
+    margin: 0;
+    position: absolute;
+    top: 520px;
+    left: 60px;
+    width: 300px;
+    height: 200px;
+}
+.block4{
+    margin: 0;
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    width: 100%;
+    height: 550px;
+    background-color: #e3e3e3;
+}
+.text0{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    font-size: 20px;
+    font-family: arial;
+}
+.text1{
+    font-size: 15px;
+    font-family:colibr;
+}
+.podblock1{
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 300px;
+    height: 250px;
+}
+.podblock2{
+    position: absolute;
+    margin: 0;
+    top: 210px;
+    left: 20px;
+    width: 300px;
+    height: 250px;
+}
+.podblock3{
+    margin: 0;
+    position: absolute;
+    top: 310px;
+    left: 20px;
+    width: 300px;
+    height: 250px;
+}
+.knopka1{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    cursor:pointer;
+    width: 200px;
+    height: 50px;
+    background-color: #e6c466;
+    border: none;
+    border-radius: 2px;
+    transition: .3s;
+}
+.knopka1:hover{
+    position: absolute;
+    top: 445px;
+    left: 45px;
+    width: 210px;
+    height: 60px;
+}
+.stroke1{
+    margin: 0;
+    position: absolute;
+    top: 1330px;
+    left: 50px;
+    font-size: 30px;
+    font-family: arial;
+}
+.block5{
+    margin: 0;
+    position: absolute;
+    top: 1380px;
+    left: 0;
+    width: 100%;
+    height: 2030px;
+}
+.zal1{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 22px;
+}
+.zal1:hover{
+    text-decoration:underline;
+}
+.price{
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    color: black;
+    font-size: 20px;
+}
+.podblock5{
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #ccc;
+}
+.img1{
+    height: 200px;
+}
+.hall1{
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.hall2{
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.hall3{
+    margin: 0;
+    position: absolute;
+    top: 585px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.hall4{
+    margin: 0;
+    position: absolute;
+    top: 870px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.hall5{
+    margin: 0;
+    position: absolute;
+    top: 1155px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.hall6{
+    margin: 0;
+    position: absolute;
+    top: 1440px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.hall7{
+    margin: 0;
+    position: absolute;
+    top: 1725px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.hall8{
+    margin: 0;
+    position: absolute;
+    top: 2010px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.hall9{
+    margin: 0;
+    position: absolute;
+    top: 2295px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+}
+.block6{
+    margin: 0;
+    position: absolute;
+    top: 4000px;
+    left: 0px;
+    width: 100%;
+    height: 1170px;
+    background-color: #e3e3e3;
+}
+.podblock4{
+    margin: 0;
+    position: absolute;
+    top: 880px;
+    left: 40px;
+    width: 350px;
+    height: 250px;
+}
+.text2{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-family: arial;
+    font-size: 15px;
+}
+.text3{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    font-family: arial;
+    font-size: 15px;
+}
+.text4{
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    font-family: arial;
+    font-size: 15px;
+}
+.stroke2{
+    margin: 0;
+    position: absolute;
+    top: 5200px;
+    left: 20px;
+    font-size: 20px;
+    font-family: arial;
+}
+.block7{
+    margin: 0;
+    position: absolute;
+    top: 5300px;
+    left: 0px;
+    width: 100%;
+    height: 800px;
+}
+.foto1{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    width: 130px;
+    height: 140px;
+}
+.foto2{
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    width: 130px;
+    height: 140px;
+}
+.foto3{
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    width: 130px;
+    height: 140px;
+}
+.foto4{
+    position: absolute;
+    top: 160px;
+    left: 230px;
+    width: 130px;
+    height: 140px;
+}
+.foto5{
+    position: absolute;
+    top: 320px;
+    left: 60px;
+    width: 130px;
+    height: 140px;
+}
+.foto6{
+    position: absolute;
+    top: 320px;
+    left: 230px;
+    width: 130px;
+    height: 140px;
+}
+.foto7{
+    position: absolute;
+    top: 480px;
+    left: 60px;
+    width: 130px;
+    height: 140px;
+}
+.foto8{
+    position: absolute;
+    top: 480px;
+    left: 230px;
+    width: 130px;
+    height: 140px;
+}
+.foto9{
+    position: absolute;
+    top: 640px;
+    left: 60px;
+    width: 130px;
+    height: 140px;
+}
+.foto10{
+    position: absolute;
+    top: 640px;
+    left: 230px;
+    width: 130px;
+    height: 140px;
+}
+.block8{
+    margin: 0;
+    position: absolute;
+    top: 6150px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+}
+.inf1{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+}
+.inf2{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+}
+.inf3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+}
+.podblock6{
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 350px;
+    height: 150px;
+}
+.podblock7{
+    margin: 0;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+}
+}
+@media screen and (max-width: 400px){
+.block1{
+        position: absolute;
+        left: 35px;
+    }
+.block2{
+        position: absolute;
+        left: 35px;
+    }
+.block3{
+        position: absolute;
+        left: 35px;
+    }
+.hall1{
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+.hall2{
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+.hall3{
+    margin: 0;
+    position: absolute;
+    top: 585px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+.hall4{
+    margin: 0;
+    position: absolute;
+    top: 870px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+.hall5{
+    margin: 0;
+    position: absolute;
+    top: 1155px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+.hall6{
+    margin: 0;
+    position: absolute;
+    top: 1440px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+.hall7{
+    margin: 0;
+    position: absolute;
+    top: 1725px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+.hall8{
+    margin: 0;
+    position: absolute;
+    top: 2010px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+.hall9{
+    margin: 0;
+    position: absolute;
+    top: 2295px;
+    left: 40px;
+    width: 300px;
+    height: 250px;
+}
+    .podblock4{
+    margin: 0;
+    position: absolute;
+    top: 930px;
+    left: 30px;
+    width: 300px;
+    height: 200px;
+}
+.foto1{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    width: 130px;
+    height: 140px;
+}
+.foto2{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    width: 130px;
+    height: 140px;
+}
+.foto3{
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    width: 130px;
+    height: 140px;
+}
+.foto4{
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    width: 130px;
+    height: 140px;
+}
+.foto5{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    width: 130px;
+    height: 140px;
+}
+.foto6{
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    width: 130px;
+    height: 140px;
+}
+.foto7{
+    position: absolute;
+    top: 480px;
+    left: 40px;
+    width: 130px;
+    height: 140px;
+}
+.foto8{
+    position: absolute;
+    top: 480px;
+    left: 200px;
+    width: 130px;
+    height: 140px;
+}
+.foto9{
+    position: absolute;
+    top: 640px;
+    left: 40px;
+    width: 130px;
+    height: 140px;
+}
+.foto10{
+    position: absolute;
+    top: 640px;
+    left: 200px;
+    width: 130px;
+    height: 140px;
+}
+}
+@media screen and (max-width: 350px){
+    .header1{
+        width: 100%;
+        height: 70px;
+    }
+    a{
+        padding: 4px;
+    }
+    .navigation1{
+        right: 10px;
+    }
+    .block1{
+            position: absolute;
+            left: 10px;
+        }
+    .block2{
+            position: absolute;
+            left: 10px;
+        }
+    .block3{
+            position: absolute;
+            left: 10px;
+        }
+    .podblock3{
+            margin: 0;
+            position: absolute;
+            top: 320px;
+            left: 20px;
+            width: 300px;
+            height: 250px;
+        }
+    .hall1{
+        margin: 0;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .hall2{
+        margin: 0;
+        position: absolute;
+        top: 300px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .hall3{
+        margin: 0;
+        position: absolute;
+        top: 585px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .hall4{
+        margin: 0;
+        position: absolute;
+        top: 870px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .hall5{
+        margin: 0;
+        position: absolute;
+        top: 1155px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .hall6{
+        margin: 0;
+        position: absolute;
+        top: 1440px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .hall7{
+        margin: 0;
+        position: absolute;
+        top: 1725px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .hall8{
+        margin: 0;
+        position: absolute;
+        top: 2010px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .hall9{
+        margin: 0;
+        position: absolute;
+        top: 2295px;
+        left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+    .podblock4{
+        margin: 0;
+        position: absolute;
+        top: 930px;
+        left: 10px;
+        width: 300px;
+        height: 200px;
+    }
+    .foto1{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto2{
+        position: absolute;
+        top: 0px;
+        left: 170px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto3{
+        position: absolute;
+        top: 160px;
+        left: 10px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto4{
+        position: absolute;
+        top: 160px;
+        left: 170px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto5{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto6{
+        position: absolute;
+        top: 320px;
+        left: 170px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto7{
+        position: absolute;
+        top: 480px;
+        left: 10px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto8{
+        position: absolute;
+        top: 480px;
+        left: 170px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto9{
+        position: absolute;
+        top: 640px;
+        left: 10px;
+        width: 130px;
+        height: 140px;
+    }
+    .foto10{
+        position: absolute;
+        top: 640px;
+        left: 170px;
+        width: 130px;
+        height: 140px;
+    }
+    }
